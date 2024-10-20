@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.mightyjava.service.impl.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.4 s <<< FAILURE! - in com.mightyjava.service.impl.UserServiceTest
+testCreateUser  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.IllegalArgumentException: rawPassword cannot be null
+	at com.mightyjava.service.impl.UserServiceTest.testCreateUser(UserServiceTest.java:42)
+
